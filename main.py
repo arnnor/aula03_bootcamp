@@ -1,13 +1,13 @@
-print("Esse é o primeiro comando.")
+# estudando estruturas de controle de fluxo if, for e while
 
-x = 5
+x = int(input("Please enter an integer: "))
 
-print("Esse é o meu segundo comando.")
-
-x = 6
-
-print("Esse é o meu terceiro comando.")
-
-print("aqui tem um bug.")
-
-print(x)
+if x < 0:
+    x = 0
+    print('Negative changed to zero')
+elif x == 0:
+    print('Zero')
+elif x == 1:
+    print('Single')
+else:
+    print('More')
